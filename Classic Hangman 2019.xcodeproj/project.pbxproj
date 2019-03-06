@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		577B7006222B10E9000AC67A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B7005222B10E9000AC67A /* AppDelegate.swift */; };
-		577B7008222B10E9000AC67A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B7007222B10E9000AC67A /* ViewController.swift */; };
-		577B700B222B10E9000AC67A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577B7009222B10E9000AC67A /* Main.storyboard */; };
 		577B700E222B10E9000AC67A /* Classic_Hangman_2019.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 577B700C222B10E9000AC67A /* Classic_Hangman_2019.xcdatamodeld */; };
-		577B7010222B10EA000AC67A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577B700F222B10EA000AC67A /* Assets.xcassets */; };
-		577B7013222B10EA000AC67A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577B7011222B10EA000AC67A /* LaunchScreen.storyboard */; };
+		577B7025222B116A000AC67A /* DC_Attractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B701E222B116A000AC67A /* DC_Attractions.swift */; };
+		577B7026222B116A000AC67A /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B701F222B116A000AC67A /* Cities.swift */; };
+		577B7027222B116A000AC67A /* Movie_Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B7020222B116A000AC67A /* Movie_Quotes.swift */; };
+		577B7028222B116A000AC67A /* Common_Phrases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B7021222B116A000AC67A /* Common_Phrases.swift */; };
+		577B7029222B116A000AC67A /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B7022222B116A000AC67A /* Movies.swift */; };
+		577B702A222B116A000AC67A /* Actors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B7023222B116A000AC67A /* Actors.swift */; };
+		577B702B222B116A000AC67A /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B7024222B116A000AC67A /* Foods.swift */; };
+		577B702F222B1185000AC67A /* Choose_Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B702C222B1185000AC67A /* Choose_Topic.swift */; };
+		577B7030222B1185000AC67A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B702D222B1185000AC67A /* Settings.swift */; };
+		577B7031222B1185000AC67A /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B702E222B1185000AC67A /* Store.swift */; };
+		577B7033222B11CC000AC67A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577B7032222B11CC000AC67A /* Assets.xcassets */; };
+		577B7035222B11E1000AC67A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577B7034222B11E1000AC67A /* LaunchScreen.storyboard */; };
+		577B7037222B11E7000AC67A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577B7036222B11E7000AC67A /* Main.storyboard */; };
+		577B7039222B1A2D000AC67A /* Loading_Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B7038222B1A2C000AC67A /* Loading_Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		577B7002222B10E9000AC67A /* Classic Hangman 2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classic Hangman 2019.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		577B7005222B10E9000AC67A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		577B7007222B10E9000AC67A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		577B700A222B10E9000AC67A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		577B700D222B10E9000AC67A /* Classic_Hangman_2019.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Classic_Hangman_2019.xcdatamodel; sourceTree = "<group>"; };
-		577B700F222B10EA000AC67A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		577B7012222B10EA000AC67A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		577B7014222B10EA000AC67A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		577B701E222B116A000AC67A /* DC_Attractions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DC_Attractions.swift; sourceTree = "<group>"; };
+		577B701F222B116A000AC67A /* Cities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+		577B7020222B116A000AC67A /* Movie_Quotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie_Quotes.swift; sourceTree = "<group>"; };
+		577B7021222B116A000AC67A /* Common_Phrases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common_Phrases.swift; sourceTree = "<group>"; };
+		577B7022222B116A000AC67A /* Movies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		577B7023222B116A000AC67A /* Actors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Actors.swift; sourceTree = "<group>"; };
+		577B7024222B116A000AC67A /* Foods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foods.swift; sourceTree = "<group>"; };
+		577B702C222B1185000AC67A /* Choose_Topic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Choose_Topic.swift; sourceTree = "<group>"; };
+		577B702D222B1185000AC67A /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		577B702E222B1185000AC67A /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		577B7032222B11CC000AC67A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		577B7034222B11E1000AC67A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		577B7036222B11E7000AC67A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		577B7038222B1A2C000AC67A /* Loading_Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loading_Screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,57 @@
 		577B7004222B10E9000AC67A /* Classic Hangman 2019 */ = {
 			isa = PBXGroup;
 			children = (
-				577B7005222B10E9000AC67A /* AppDelegate.swift */,
-				577B7007222B10E9000AC67A /* ViewController.swift */,
-				577B7009222B10E9000AC67A /* Main.storyboard */,
-				577B700F222B10EA000AC67A /* Assets.xcassets */,
-				577B7011222B10EA000AC67A /* LaunchScreen.storyboard */,
+				577B701D222B1148000AC67A /* Core Data */,
+				577B701C222B1136000AC67A /* Important Stuff */,
+				577B701B222B112F000AC67A /* Topics */,
+				577B701A222B1113000AC67A /* Other Swift Files */,
 				577B7014222B10EA000AC67A /* Info.plist */,
-				577B700C222B10E9000AC67A /* Classic_Hangman_2019.xcdatamodeld */,
+				577B7034222B11E1000AC67A /* LaunchScreen.storyboard */,
+				577B7036222B11E7000AC67A /* Main.storyboard */,
 			);
 			path = "Classic Hangman 2019";
+			sourceTree = "<group>";
+		};
+		577B701A222B1113000AC67A /* Other Swift Files */ = {
+			isa = PBXGroup;
+			children = (
+				577B7038222B1A2C000AC67A /* Loading_Screen.swift */,
+				577B702C222B1185000AC67A /* Choose_Topic.swift */,
+				577B702D222B1185000AC67A /* Settings.swift */,
+				577B702E222B1185000AC67A /* Store.swift */,
+			);
+			path = "Other Swift Files";
+			sourceTree = "<group>";
+		};
+		577B701B222B112F000AC67A /* Topics */ = {
+			isa = PBXGroup;
+			children = (
+				577B7023222B116A000AC67A /* Actors.swift */,
+				577B701F222B116A000AC67A /* Cities.swift */,
+				577B7021222B116A000AC67A /* Common_Phrases.swift */,
+				577B701E222B116A000AC67A /* DC_Attractions.swift */,
+				577B7024222B116A000AC67A /* Foods.swift */,
+				577B7020222B116A000AC67A /* Movie_Quotes.swift */,
+				577B7022222B116A000AC67A /* Movies.swift */,
+			);
+			path = Topics;
+			sourceTree = "<group>";
+		};
+		577B701C222B1136000AC67A /* Important Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				577B7032222B11CC000AC67A /* Assets.xcassets */,
+				577B7005222B10E9000AC67A /* AppDelegate.swift */,
+			);
+			path = "Important Stuff";
+			sourceTree = "<group>";
+		};
+		577B701D222B1148000AC67A /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				577B700C222B10E9000AC67A /* Classic_Hangman_2019.xcdatamodeld */,
+			);
+			path = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +187,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				577B7013222B10EA000AC67A /* LaunchScreen.storyboard in Resources */,
-				577B7010222B10EA000AC67A /* Assets.xcassets in Resources */,
-				577B700B222B10E9000AC67A /* Main.storyboard in Resources */,
+				577B7037222B11E7000AC67A /* Main.storyboard in Resources */,
+				577B7033222B11CC000AC67A /* Assets.xcassets in Resources */,
+				577B7035222B11E1000AC67A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +200,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				577B7039222B1A2D000AC67A /* Loading_Screen.swift in Sources */,
+				577B7029222B116A000AC67A /* Movies.swift in Sources */,
+				577B7026222B116A000AC67A /* Cities.swift in Sources */,
 				577B700E222B10E9000AC67A /* Classic_Hangman_2019.xcdatamodeld in Sources */,
-				577B7008222B10E9000AC67A /* ViewController.swift in Sources */,
+				577B7031222B1185000AC67A /* Store.swift in Sources */,
+				577B702A222B116A000AC67A /* Actors.swift in Sources */,
+				577B7025222B116A000AC67A /* DC_Attractions.swift in Sources */,
+				577B7027222B116A000AC67A /* Movie_Quotes.swift in Sources */,
+				577B702F222B1185000AC67A /* Choose_Topic.swift in Sources */,
+				577B702B222B116A000AC67A /* Foods.swift in Sources */,
 				577B7006222B10E9000AC67A /* AppDelegate.swift in Sources */,
+				577B7030222B1185000AC67A /* Settings.swift in Sources */,
+				577B7028222B116A000AC67A /* Common_Phrases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		577B7009222B10E9000AC67A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				577B700A222B10E9000AC67A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		577B7011222B10EA000AC67A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				577B7012222B10EA000AC67A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		577B7015222B10EA000AC67A /* Debug */ = {
@@ -296,7 +349,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Classic-Hangman-2019";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,7 +367,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Classic-Hangman-2019";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
