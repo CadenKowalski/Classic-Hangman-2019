@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -160,7 +160,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Coin" translatesAutoresizingMaskIntoConstraints="NO" id="O7T-SS-Gv3">
-                                <rect key="frame" x="308" y="112" width="17" height="17"/>
+                                <rect key="frame" x="305" y="112" width="20" height="20"/>
                                 <gestureRecognizers/>
                             </imageView>
                         </subviews>
@@ -850,7 +850,7 @@
                                                                 </constraints>
                                                                 <state key="normal" title="X"/>
                                                                 <connections>
-                                                                    <action selector="Y_Presse:" destination="ap5-m4-cpH" eventType="touchUpInside" id="KGZ-2G-oVl"/>
+                                                                    <action selector="X_Pressed:" destination="ap5-m4-cpH" eventType="touchUpInside" id="Qmw-bc-jAB"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdU-wz-QIk">
@@ -967,6 +967,32 @@
                     <connections>
                         <outlet property="Coin_Label" destination="0dR-YM-LLn" id="lOS-Nw-NI0"/>
                         <outlet property="Guesses_Remaining_Lbl" destination="NCn-iM-ynL" id="kpz-f7-5kf"/>
+                        <outlet property="Letter_A" destination="4p5-uf-dDt" id="9Ja-vM-ljo"/>
+                        <outlet property="Letter_B" destination="2zB-9Q-1bg" id="Tyi-m9-EO8"/>
+                        <outlet property="Letter_C" destination="vdU-wz-QIk" id="7bh-sH-Zr2"/>
+                        <outlet property="Letter_D" destination="7Ia-Sc-eDw" id="jsd-L1-RDz"/>
+                        <outlet property="Letter_E" destination="8i0-cu-n89" id="wQ4-AT-sTT"/>
+                        <outlet property="Letter_F" destination="hYR-jR-psp" id="F9I-Qf-Ts2"/>
+                        <outlet property="Letter_G" destination="kTf-eK-9wr" id="uwq-xj-jVL"/>
+                        <outlet property="Letter_H" destination="5Vf-SC-i3g" id="KHp-DU-ww1"/>
+                        <outlet property="Letter_I" destination="Z65-Qg-UKw" id="K4K-Wk-vHD"/>
+                        <outlet property="Letter_J" destination="zhj-gz-s3g" id="agB-AM-4Lp"/>
+                        <outlet property="Letter_K" destination="fU4-UM-PJh" id="sHg-K1-GtJ"/>
+                        <outlet property="Letter_L" destination="2KF-1f-wyl" id="KKT-RG-sPg"/>
+                        <outlet property="Letter_M" destination="yHi-YA-4pO" id="fFk-ld-bNf"/>
+                        <outlet property="Letter_N" destination="vbZ-tN-wEK" id="nyZ-WO-ukR"/>
+                        <outlet property="Letter_O" destination="Ksc-KC-E64" id="vh9-3w-NyR"/>
+                        <outlet property="Letter_P" destination="RsE-Hl-BWf" id="oRI-1Q-cmt"/>
+                        <outlet property="Letter_Q" destination="X5l-eD-iuX" id="TfC-Cg-H8z"/>
+                        <outlet property="Letter_R" destination="SCo-AF-yUl" id="NIq-Al-ljs"/>
+                        <outlet property="Letter_S" destination="14O-vN-8jl" id="xag-On-Dkh"/>
+                        <outlet property="Letter_T" destination="LZc-Ze-uNX" id="mdd-Mi-Jcm"/>
+                        <outlet property="Letter_U" destination="5yV-C3-2a7" id="oxN-DE-GAd"/>
+                        <outlet property="Letter_V" destination="p9L-G1-ef6" id="hun-dY-80i"/>
+                        <outlet property="Letter_W" destination="h9w-9u-6HZ" id="P7e-gs-UBB"/>
+                        <outlet property="Letter_X" destination="gor-cj-Xsq" id="nzJ-Sm-1ds"/>
+                        <outlet property="Letter_Y" destination="W2R-kt-bgx" id="ILf-I0-cwe"/>
+                        <outlet property="Letter_Z" destination="wS1-ef-zKF" id="2r8-oo-nwh"/>
                         <outlet property="Lvl_Number_Lbl" destination="EGF-d1-cdq" id="S1l-N9-VXX"/>
                         <outlet property="Lvl_View" destination="oqV-kQ-0qH" id="HYu-AK-vhr"/>
                         <outlet property="Stand" destination="5LN-Cv-LcM" id="nNS-k7-a9u"/>
@@ -3125,38 +3151,38 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Actors_Topic" width="56.916996002197266" height="17"/>
-        <image name="Background" width="59" height="127.92997741699219"/>
-        <image name="Cities_Topic" width="56.916996002197266" height="17"/>
-        <image name="Coin" width="17" height="17"/>
-        <image name="Common_Phrases_Topic" width="56.916996002197266" height="17"/>
-        <image name="DC_Attractions_Topic" width="56.916996002197266" height="17"/>
-        <image name="Foods_Topic" width="56.916996002197266" height="17"/>
-        <image name="LVL_1" width="17" height="17"/>
-        <image name="LVL_10" width="17" height="17"/>
-        <image name="LVL_11" width="17" height="17"/>
-        <image name="LVL_12" width="17" height="17"/>
-        <image name="LVL_13" width="17" height="17"/>
-        <image name="LVL_14" width="17" height="17"/>
-        <image name="LVL_15" width="17" height="17"/>
-        <image name="LVL_16" width="17" height="17"/>
-        <image name="LVL_17" width="17" height="17"/>
-        <image name="LVL_18" width="17" height="17"/>
-        <image name="LVL_19" width="17" height="17"/>
-        <image name="LVL_2" width="17" height="17"/>
-        <image name="LVL_20" width="17" height="17"/>
-        <image name="LVL_3" width="17" height="17"/>
-        <image name="LVL_4" width="17" height="17"/>
-        <image name="LVL_5" width="17" height="17"/>
-        <image name="LVL_6" width="17" height="17"/>
-        <image name="LVL_7" width="17" height="17"/>
-        <image name="LVL_8" width="17" height="17"/>
-        <image name="LVL_9" width="17" height="17"/>
-        <image name="Loading_Screen" width="105.88235473632812" height="229.27058410644531"/>
-        <image name="Movie_Quotes_Topic" width="56.916996002197266" height="17"/>
-        <image name="Movies_Topic" width="56.916996002197266" height="17"/>
-        <image name="Settings" width="17" height="17"/>
-        <image name="Shopping_Cart" width="56.916996002197266" height="56.916996002197266"/>
-        <image name="Stand" width="38" height="45"/>
+        <image name="Actors_Topic" width="66.666664123535156" height="20"/>
+        <image name="Background" width="125" height="270.66665649414062"/>
+        <image name="Cities_Topic" width="66.666664123535156" height="20"/>
+        <image name="Coin" width="20" height="20"/>
+        <image name="Common_Phrases_Topic" width="66.666664123535156" height="20"/>
+        <image name="DC_Attractions_Topic" width="66.666664123535156" height="20"/>
+        <image name="Foods_Topic" width="66.666664123535156" height="20"/>
+        <image name="LVL_1" width="20" height="20"/>
+        <image name="LVL_10" width="20" height="20"/>
+        <image name="LVL_11" width="20" height="20"/>
+        <image name="LVL_12" width="20" height="20"/>
+        <image name="LVL_13" width="20" height="20"/>
+        <image name="LVL_14" width="20" height="20"/>
+        <image name="LVL_15" width="20" height="20"/>
+        <image name="LVL_16" width="20" height="20"/>
+        <image name="LVL_17" width="20" height="20"/>
+        <image name="LVL_18" width="20" height="20"/>
+        <image name="LVL_19" width="20" height="20"/>
+        <image name="LVL_2" width="20" height="20"/>
+        <image name="LVL_20" width="20" height="20"/>
+        <image name="LVL_3" width="20" height="20"/>
+        <image name="LVL_4" width="20" height="20"/>
+        <image name="LVL_5" width="20" height="20"/>
+        <image name="LVL_6" width="20" height="20"/>
+        <image name="LVL_7" width="20" height="20"/>
+        <image name="LVL_8" width="20" height="20"/>
+        <image name="LVL_9" width="20" height="20"/>
+        <image name="Loading_Screen" width="125" height="270.66665649414062"/>
+        <image name="Movie_Quotes_Topic" width="66.666664123535156" height="20"/>
+        <image name="Movies_Topic" width="66.666664123535156" height="20"/>
+        <image name="Settings" width="20" height="20"/>
+        <image name="Shopping_Cart" width="66.666664123535156" height="66.666664123535156"/>
+        <image name="Stand" width="80" height="93.333335876464844"/>
     </resources>
 </document>
